@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root{
+    --color-green: #38AF90;
+    --color-gray:  #797979;
+    --color-gray-2: #F0F0F0;
+    --color-gray-3: #bdbdbd;
+    --color-white: #fff;
+    --color-white-2: #E5E5E5;
+    --color-pink: #DD7E92;
+    --color-black: #383838;
+}
+
+/* TAGS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: var(--color-green);
+    /*box-shadow: 0px 2.5px 5px var(--color-black);*/   
+    /* Por algum motivo o box shadow do header deixou de funcionar (estava funcionando, do nada parou) 
+    então, coloquei o box shadow no topo do main pra pelo menos chegar perto do efeito*/
+    padding: 15px 10px;
+}
+
+header h1{
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    background-color: var(--color-white);
+    padding: 40px 10px 40px 10px;
+    box-shadow: 0px -1.5px 4px var(--color-black);  
+}
+
+
+/* IDs e Classes */
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 300px;
+    width: 100%;
+}
+
+.centralize{
+    margin: 0 auto;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+#section-1 h2{
+    color: var(--color-gray);
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards-section-1{
+    background-color: var(--color-gray-2);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 3px var(--color-gray-3);  
+}
+
+.cards-section-1 h3{
+    color: var(--color-green);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cards-section-1 h4{
+    color: var(--color-gray);
+    font-size: 12px;
+    font-weight: 700;
+    border-bottom: 1px solid var(--color-green);
+    padding-bottom: 3px;
+}
+
+.cards-section-1 p{
+    color: var(--color-gray);
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.cards-section-1 label{
+    color: var(--color-green);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.cards-section-1 div{
+    color: var(--color-pink);
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.pink-button{
+    background-color: var(--color-pink);
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 700;
+}
