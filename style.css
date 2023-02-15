@@ -22,7 +22,7 @@
 
 header{
     background-color: var(--color-green);
-    /*box-shadow: 0px 2.5px 5px var(--color-black);*/   
+    /*box-shadow: 0px 2.5px 5px var(--color-black);*/ 
     /* Por algum motivo o box shadow do header deixou de funcionar (estava funcionando, do nada parou) 
     então, coloquei o box shadow no topo do main pra pelo menos chegar perto do efeito*/
     padding: 15px 10px;
@@ -37,9 +37,7 @@ header h1{
 }
 
 main{
-    background-color: var(--color-white);
-    padding: 40px 10px 40px 10px;
-    box-shadow: 0px -1.5px 4px var(--color-black);  
+    box-shadow: 0px -1.5px 4px var(--color-black);
 }
 
 
@@ -64,6 +62,11 @@ main{
 
 .justify-center{
     justify-content: center;
+}
+
+#section-1{
+    background-color: var(--color-white);
+    padding: 40px 0;
 }
 
 #section-1 h2{
@@ -128,4 +131,114 @@ main{
     color: var(--color-white);
     font-size: 18px;
     font-weight: 700;
+}
+
+#section-2{
+    background-color: var(--color-gray-2);
+    padding: 40px 0;
+}
+
+#section-2 h2{
+    color: var(--color-green);
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#section-2 img{
+    border-radius: 8px 8px 0 0;
+}
+
+.cards-section-2{
+    background-color: var(--color-white);
+    border-radius: 0 0 8px 8px;
+    margin-top: 30px;
+    box-shadow: 1px 5px 10px var(--color-gray-3); 
+}
+
+.padding-cards-section-2{
+    padding: 30px 40px 20px 40px;
+}
+
+.cards-section-2 h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--color-gray);
+}
+
+.cards-section-2 span{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-green);
+    margin-right: 5px;
+}
+
+.cards-section-2 p{
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--color-gray);
+}
+
+.cards-section-2 label{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-green);
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.flex-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3{
+    padding: 40px 10px;
+}
+
+#section-3 h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-gray);
+    display: flex;
+    justify-content: center;
+}
+
+.card-section-3{
+    background-color: var(--color-gray-2);
+    border-radius: 8px;
+    padding: 50px 10px 30px 10px;
+    box-shadow: 0 3px 5px var(--color-gray-3);
+    margin-top: 20px;
+}
+
+.white-button-form{
+    width: 244px;
+    height: 67px;
+    color: var(--color-pink);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: var(--color-white);
+    border: 2px solid var(--color-pink);
+}
+
+.pink-button-form{
+    background-color: var(--color-pink);
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.column{
+    flex-direction: column;
+    align-items: center;
 }
