@@ -115,22 +115,32 @@
                 <h2>Faça sua inscrição</h2>
                 <div class="card-section-3">
                     <form action="">
-                        <input type="text" name="" id="" placeholder="Nome completo">
-                        <input type="text" name="" id="" placeholder="Email">
-                        <label for="plataforma">Qual sua plataforma preferida?</label>
-                        <div id="plataforma">
-                            <input type="radio" name="plataforma-favorita" id="pc">
-                            <label for="pc">PC</label>
-
-                            <input type="radio" name="plataforma-favorita" id="xbox">
-                            <label for="xbox">Xbox</label>
-
-                            <input type="radio" name="plataforma-favorita" id="playstation">
-                            <label for="playstation">Playstation</label>
+                        <div>
+                            <input type="text" name="name" id="name" placeholder="Nome completo">
+                        </div>
+                        <div>
+                            <input type="text" name="email" id="email" placeholder="Email">
+                        </div>
+                        <label class="setup" for="plataforma">Qual sua plataforma preferida?</label>
+                        <div id="plataforma" class="setup">
+                            <div class="flex margin-top-8">
+                                <input type="radio" name="plataforma-favorita" id="pc">
+                                <label for="pc">PC</label>
+                            </div>
+                            <div class="flex margin-top-8">
+                                <input type="radio" name="plataforma-favorita" id="xbox">
+                                <label for="xbox">Xbox</label>
+                            </div>
+                            <div class="flex margin-top-8">
+                                <input type="radio" name="plataforma-favorita" id="playstation">
+                                <label for="playstation">Playstation</label>
+                            </div>
+                        </div>
+                        <div class="setup flex" id="checkbox">
+                            <input type="checkbox" name="news" id="box-novidade">
+                            <label for="news"> Desejo receber novidades.</label>
                         </div>
 
-                        <input type="checkbox" name="news" id="box-novidade">
-                        <label for="news"> Desejo receber novidades.</label>
                         <div class="flex column">
                             <input type="submit" value="Enviar" class="pink-button-form">
                             <input type="reset" value="Limpar" class="white-button-form">
@@ -142,16 +152,20 @@
     </main>
 
     <footer>
-        <div>
-            <a href="#">@dsplaygames</a>
-            <a href="#">/dsplaygames</a>
-        </div>
-        <div>
-            <p>DS Play Games Ltda. Todos direitos reservados</p>
-        </div>
-        <div>
-            <p>Politica de privacidade</p>
-            <p>Termos de uso</p>
+        <div class="container centralize">
+            <div class="align-item">
+                <div>
+                    <a href="#">@dsplaygames</a>
+                    <a href="#">/dsplaygames</a>
+                </div>
+                <div>
+                    <p>DS Play Games Ltda. Todos direitos reservados</p>
+                </div>
+                <div>
+                    <p>Politica de privacidade</p>
+                    <p>Termos de uso</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>

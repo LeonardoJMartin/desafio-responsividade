@@ -5,6 +5,7 @@
     --color-gray:  #797979;
     --color-gray-2: #F0F0F0;
     --color-gray-3: #bdbdbd;
+    --color-gray-4: #C4C4C4;
     --color-white: #fff;
     --color-white-2: #E5E5E5;
     --color-pink: #DD7E92;
@@ -40,6 +41,18 @@ main{
     box-shadow: 0px -1.5px 4px var(--color-black);
 }
 
+footer{
+    background-color: var(--color-black);
+    height: 300px;
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
 
 /* IDs e Classes */
 
@@ -239,6 +252,52 @@ main{
 }
 
 .column{
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type=text]{
+    height: 50px;
+    width: 280px;
+    border-radius: 4px;
+    border: 1px solid var(--color-gray);
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: 23px;
+    height: 23px;
+    color: #999;
+    margin-right: 7px;
+}
+
+input[type="checkbox"]:checked{
+    color: #999; /*não entendi por que não funcionou */
+}
+
+.setup{
+    color: var(--color-gray);
+    font-size: 16px;
+}
+
+#checkbox{
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.margin-top-8{
+    margin-top: 8px;
+}
+
+::-webkit-input-placeholder {
+    color: #C4C4C4;
+ }
+ 
+.align-item{
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
