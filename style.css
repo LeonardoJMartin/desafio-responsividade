@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
 
-:root{
+:root {
     --color-green: #38AF90;
-    --color-gray:  #797979;
+    --color-gray: #797979;
     --color-gray-2: #F0F0F0;
     --color-gray-3: #bdbdbd;
     --color-gray-4: #C4C4C4;
@@ -14,22 +14,22 @@
 
 /* TAGS */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     background-color: var(--color-green);
-    /*box-shadow: 0px 2.5px 5px var(--color-black);*/ 
+    /*box-shadow: 0px 2.5px 5px var(--color-black);*/
     /* Por algum motivo o box shadow do header deixou de funcionar (estava funcionando, do nada parou) 
     então, coloquei o box shadow no topo do main pra pelo menos chegar perto do efeito*/
     padding: 15px 10px;
 }
 
-header h1{
+header h1 {
     color: var(--color-white);
     font-size: 18px;
     font-weight: 700;
@@ -37,11 +37,11 @@ header h1{
     align-items: center;
 }
 
-main{
+main {
     box-shadow: 0px -1.5px 4px var(--color-black);
 }
 
-footer{
+footer {
     background-color: var(--color-black);
     height: 300px;
     color: var(--color-white);
@@ -49,40 +49,40 @@ footer{
     font-weight: 400;
 }
 
-a{
+a {
     text-decoration: none;
     color: unset;
 }
 
 /* IDs e Classes */
 
-.flex{
+.flex {
     display: flex;
 }
 
-.space-between{
+.space-between {
     justify-content: space-between;
 }
 
-.container{
+.container {
     max-width: 300px;
     width: 100%;
 }
 
-.centralize{
+.centralize {
     margin: 0 auto;
 }
 
-.justify-center{
+.justify-center {
     justify-content: center;
 }
 
-#section-1{
+#section-1 {
     background-color: var(--color-white);
     padding: 40px 0;
 }
 
-#section-1 h2{
+#section-1 h2 {
     color: var(--color-gray);
     font-weight: 700;
     font-size: 24px;
@@ -91,21 +91,21 @@ a{
     justify-content: center;
 }
 
-.cards-section-1{
+.cards-section-1 {
     background-color: var(--color-gray-2);
     border-radius: 8px;
     padding: 15px;
     margin-bottom: 30px;
-    box-shadow: 0px 5px 3px var(--color-gray-3);  
+    box-shadow: 0px 5px 3px var(--color-gray-3);
 }
 
-.cards-section-1 h3{
+.cards-section-1 h3 {
     color: var(--color-green);
     font-size: 16px;
     font-weight: 700;
 }
 
-.cards-section-1 h4{
+.cards-section-1 h4 {
     color: var(--color-gray);
     font-size: 12px;
     font-weight: 700;
@@ -113,27 +113,27 @@ a{
     padding-bottom: 3px;
 }
 
-.cards-section-1 p{
+.cards-section-1 p {
     color: var(--color-gray);
     font-size: 10px;
     font-weight: 400;
     margin-top: 12px;
 }
 
-.cards-section-1 label{
+.cards-section-1 label {
     color: var(--color-green);
     font-size: 10px;
     font-weight: 400;
 }
 
-.cards-section-1 div{
+.cards-section-1 div {
     color: var(--color-pink);
     font-size: 14px;
     font-weight: 700;
     margin-top: 12px;
 }
 
-.pink-button{
+.pink-button {
     background-color: var(--color-pink);
     width: 244px;
     height: 67px;
@@ -146,12 +146,12 @@ a{
     font-weight: 700;
 }
 
-#section-2{
+#section-2 {
     background-color: var(--color-gray-2);
     padding: 40px 0;
 }
 
-#section-2 h2{
+#section-2 h2 {
     color: var(--color-green);
     justify-content: center;
     display: flex;
@@ -159,41 +159,41 @@ a{
     font-weight: 700;
 }
 
-#section-2 img{
+#section-2 img {
     border-radius: 8px 8px 0 0;
 }
 
-.cards-section-2{
+.cards-section-2 {
     background-color: var(--color-white);
     border-radius: 0 0 8px 8px;
     margin-top: 30px;
-    box-shadow: 1px 5px 10px var(--color-gray-3); 
+    box-shadow: 1px 5px 10px var(--color-gray-3);
 }
 
-.padding-cards-section-2{
+.padding-cards-section-2 {
     padding: 30px 40px 20px 40px;
 }
 
-.cards-section-2 h3{
+.cards-section-2 h3 {
     font-size: 18px;
     font-weight: 700;
     color: var(--color-gray);
 }
 
-.cards-section-2 span{
+.cards-section-2 span {
     font-size: 14px;
     font-weight: 700;
     color: var(--color-green);
     margin-right: 5px;
 }
 
-.cards-section-2 p{
+.cards-section-2 p {
     font-size: 12px;
     font-weight: 400;
     color: var(--color-gray);
 }
 
-.cards-section-2 label{
+.cards-section-2 label {
     font-size: 36px;
     font-weight: 700;
     color: var(--color-green);
@@ -202,17 +202,17 @@ a{
     margin-top: 15px;
 }
 
-.flex-card{
+.flex-card {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#section-3{
+#section-3 {
     padding: 40px 10px;
 }
 
-#section-3 h2{
+#section-3 h2 {
     font-size: 24px;
     font-weight: 700;
     color: var(--color-gray);
@@ -220,7 +220,7 @@ a{
     justify-content: center;
 }
 
-.card-section-3{
+.card-section-3 {
     background-color: var(--color-gray-2);
     border-radius: 8px;
     padding: 50px 10px 30px 10px;
@@ -228,7 +228,7 @@ a{
     margin-top: 20px;
 }
 
-.white-button-form{
+.white-button-form {
     width: 244px;
     height: 67px;
     color: var(--color-pink);
@@ -239,7 +239,7 @@ a{
     border: 2px solid var(--color-pink);
 }
 
-.pink-button-form{
+.pink-button-form {
     background-color: var(--color-pink);
     width: 244px;
     height: 67px;
@@ -251,12 +251,12 @@ a{
     margin-bottom: 20px;
 }
 
-.column{
+.column {
     flex-direction: column;
     align-items: center;
 }
 
-input[type=text]{
+input[type=text] {
     height: 50px;
     width: 280px;
     border-radius: 4px;
@@ -267,36 +267,38 @@ input[type=text]{
     margin-bottom: 20px;
 }
 
-input[type=radio], input[type=checkbox] {
+input[type=radio],
+input[type=checkbox] {
     width: 23px;
     height: 23px;
     color: #999;
     margin-right: 7px;
 }
 
-input[type="checkbox"]:checked{
-    color: #999; /*não entendi por que não funcionou */
+input[type="checkbox"]:checked {
+    color: #999;
+    /*não entendi por que não funcionou */
 }
 
-.setup{
+.setup {
     color: var(--color-gray);
     font-size: 16px;
 }
 
-#checkbox{
+#checkbox {
     margin-top: 35px;
     margin-bottom: 45px;
 }
 
-.margin-top-8{
+.margin-top-8 {
     margin-top: 8px;
 }
 
 ::-webkit-input-placeholder {
     color: #C4C4C4;
- }
- 
-.align-item{
+}
+
+.align-item {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -305,10 +307,64 @@ input[type="checkbox"]:checked{
     padding: 30px 0 30px 0;
 }
 
-.align-item p{
+.align-item p {
     margin-bottom: 6px;
 }
 
-.footer{
+.footer {
     height: 100%;
+}
+
+@media(min-width: 1200px) {
+    .container {
+        max-width: 990px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    #section-1 {
+        padding-bottom: 55px;
+    }
+
+    #section-1 h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .cards-section-1 h3 {
+        font-size: 24px;
+    }
+
+    .cards-section-1 h4 {
+        font-size: 16px;
+    }
+
+    .cards-section-1 {
+        margin-bottom: 40px;
+    }
+
+    .align-item {
+        flex-direction: row;
+        align-items: center;       
+    }
+
+    footer{
+        height: 190px;
+    }
+
+    #section-3{
+        padding-bottom: 60px;
+    }
+
+    #section-3 h2 {
+        font-size: 36px;
+    }
+
+    .card-section-3{
+        margin-top: 40px;
+        width: 790px;
+    }
+
 }
